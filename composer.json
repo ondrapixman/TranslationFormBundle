@@ -27,7 +27,6 @@
     ],
     "require": {
         "php": ">=7.2",
-        "a2lix/auto-form-bundle": "^0.2|^0.3",
         "symfony/config": "^3.4.30|^4.3|^5.0",
         "symfony/dependency-injection": "^3.4.30|^4.3|^5.0",
         "symfony/doctrine-bridge": "^3.4.30|^4.3|^5.0",
@@ -49,6 +48,12 @@
         "symfony/validator": "^3.4.30|^4.3|^5.0",
         "vimeo/psalm": "^3.6"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ondrapixman/AutoFormBundle"
+        }
+    ],
     "suggest": {
         "knplabs/doctrine-behaviors": "For Knp strategy",
         "prezent/doctrine-translatable-bundle": "For Prezent strategy"
